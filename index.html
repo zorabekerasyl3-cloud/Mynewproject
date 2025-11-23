@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Қазақ хандығы</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #006400, #228B22);
+      color: white;
+      text-align: center;
+      padding: 40px 10px;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover { background: #228B22; }
+    .searchbar {
+      background:#444; padding:15px; text-align:center;
+    }
+    .search-input {
+      padding:10px; width:55%; font-size:16px; border-radius:5px; border:none;
+    }
+    .search-btn {
+      padding:10px 20px; font-size:16px; border:none; border-radius:5px;
+      background:#228B22; color:white; cursor:pointer;
+    }
+    section {
+      max-width: 1000px; margin: 30px auto; background: white;
+      padding: 30px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img { width:100%; border-radius:10px; margin:15px 0; }
+    .grid {
+      display:grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap:20px;
+    }
+    .card {
+      background:#f2f2f2; border-radius:10px; padding:15px; text-align:center;
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: scale(1.03); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Қазақ хандығы</h1>
+  <p>Қазақ мемлекеттілігінің бастауы</p>
+</header>
+
+<nav>
+  <a href="#tarikhy">Тарихы</a>
+  <a href="#handar">Хандар</a>
+  <a href="#madeniet">Мәдениеті</a>
+  <a href="#bailanys">Байланыс</a>
+  <a href="avtor.html">Автор</a>
+</nav>
+
+<div class="searchbar">
+  <input id="searchInput" class="search-input" type="text" placeholder="Ханды іздеу...">
+  <button onclick="startSearch()" class="search-btn">Іздеу</button>
+</div>
+
+<section id="tarikhy">
+  <h2>Қазақ хандығының құрылуы</h2>
+  <img src="картақазақхандығы.webp">
+  <p>Қазақ хандығы XV ғасырда...</p>
+</section>
+
+<section id="handar">
+  <h2>Қазақ хандары</h2>
+
+  <div class="grid">
+
+    <a href="kerei.html" style="color:black;"><div class="card"><h3>Керей хан</h3><p>1465-1473</p></div></a>
+    <a href="zhanibek.html" style="color:black;"><div class="card"><h3>Жәнібек хан</h3><p>1473-1480</p></div></a>
+    <a href="buryndyk.html" style="color:black;"><div class="card"><h3>Бұрындық хан</h3><p>1480–1511</p></div></a>
+    <a href="kasym.html" style="color:black;"><div class="card"><h3>Қасым хан</h3><p>1511-1518</p></div></a>
+    <a href="mamash.html" style="color:black;"><div class="card"><h3>Мамаш хан</h3><p>1521—1523</p></div></a>
+    <a href="takhir.html" style="color:black;"><div class="card"><h3>Тахир хан</h3><p>1523—1533</p></div></a>
+    <a href="akhmet.html" style="color:black;"><div class="card"><h3>Ахмет хан</h3><p>1533-1537</p></div></a>
+    <a href="togym.html" style="color:black;"><div class="card"><h3>Тоғым хан</h3><p>1533-1527</p></div></a>
+    <a href="buidash.html" style="color:black;"><div class="card"><h3>Бұйдаш хан</h3><p>1533 — 1538.</p></div></a>
+    <a href="khaknazar.html" style="color:black;"><div class="card"><h3>Хақназар хан</h3><p>1538-1580</p></div></a>
+    <a href="shygai.html" style="color:black;"><div class="card"><h3>Шығай хан</h3><p>1580—1582.</p></div></a>
+    <a href="tauekel.html" style="color:black;"><div class="card"><h3>Тәуекел хан</h3><p>1582–1598.</p></div></a>
+    <a href="esim.html" style="color:black;"><div class="card"><h3>Есім хан</h3><p>1598-1628</p></div></a>
+    <a href="zhanibek2.html" style="color:black;"><div class="card"><h3>2 Жәнібек хан</h3><p>1628–1643</p></div></a>
+    <a href="zhangir.html" style="color:black;"><div class="card"><h3>Жәңгір хан</h3><p>1643–1652</p></div></a>
+    <a href="batyr.html" style="color:black;"><div class="card"><h3>Батыр хан</h3><p>1652–1680</p></div></a>
+    <a href="tauke.html" style="color:black;"><div class="card"><h3>Тәуке хан</h3><p>1680-1715</p></div></a>
+    <a href="kaiyp.html" style="color:black;"><div class="card"><h3>Қайып хан</h3><p>1715-1718</p></div></a>
+    <a href="bolat.html" style="color:black;"><div class="card"><h3>Болат хан</h3><p>1718-1729</p></div></a>
+    <a href="abilmambet.html" style="color:black;"><div class="card"><h3>Әбілмәмбет хан</h3><p>1740-1771</p></div></a>
+    <a href="abylai.html" style="color:black;"><div class="card"><h3>Абылай хан</h3><p>1771-1781</p></div></a>
+    <a href="kenesary.html" style="color:black;"><div class="card"><h3>Кенесары хан</h3><p>1841-1847</p></div></a>
+
+  </div>
+</section>
+
+<section id="madeniet">
+  <h2>Мәдениеті мен дәстүрі</h2>
+  <p>Қазақ хандығы дәуірінде музыка, қолөнер, жыраулық...</p>
+  <img src="мәдениет қазақ хандығы.webp">
+</section>
+
+<section id="bailanys">
+  <h2>Байланыс</h2>
+  <p>Email: zhorabekerasyl@gmail.com</p>
+  <p>Телефон: +7 777 021 36 31</p>
+</section>
+
+<script>
+function startSearch() {
+  let text = document.getElementById("searchInput").value.toLowerCase();
+  let cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    let item = card.parentElement;
+    if (card.innerText.toLowerCase().includes(text)) item.style.display = "block";
+    else item.style.display = "none";
+  });
+}
+</script>
+
+<button id="totop">↑</button>
+
+<style>
+#totop {
+  position: fixed; bottom: 20px; right: 20px;
+  padding: 10px 15px; border-radius: 8px;
+  background: #228B22; color: white;
+  font-size: 20px; cursor: pointer; display:none;
+}
+</style>
+
+<script>
+window.addEventListener("scroll", () => {
+  document.getElementById("totop").style.display =
+    window.scrollY > 200 ? "block" : "none";
+});
+document.getElementById("totop").onclick = () => {
+  window.scrollTo({top:0, behavior:'smooth'});
+};
+</script>
+<footer style="background: #333; color: #ccc; text-align: center; padding: 20px; margin-top: 40px; font-size: 16px;">
+  © 2025 Қазақ хандығы сайты. Барлық құқықтар қорғалған.
+</footer>
+</body>
+</html>
